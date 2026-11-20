@@ -35,6 +35,8 @@ Then activate via TYPO3 Extension Manager or CLI:
 
 ## Configuration
 
+> 🚀 **Need an API key?** Get started with the Young-dogs AI SEO service at **[young-dogs.com](https://www.young-dogs.com)**. Sign up to grab your personal endpoint URL and API key—no complex setup, just plug them in and start your SEO magic.
+
 Go to **Admin Tools → Settings → Extension Configuration → `youngdogs_ai_seo`**.
 
 | Setting | Description |
@@ -65,3 +67,13 @@ Default examples are included in [`Configuration/page.tsconfig`](Configuration/p
 
 MIT — see [LICENSE](LICENSE).
 
+---
+
+### 🌐 Connect with us
+
+* **Website:** [young-dogs.com](https://www.young-dogs.com)
+* **Network:** [LinkedIn](https://www.linkedin.com/company/young-dogs-ecommerce/)
+* **HQ:** Young-dogs España SL, Asturias, Spain 🇪🇸
+
+---
+<sub>© 2026 Young-dogs Spain. Built with passion for innovation and operational excellence.</sub>
