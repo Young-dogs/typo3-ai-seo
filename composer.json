@@ -1,12 +1,30 @@
 {
     "name": "young-dogs/typo3-ai-seo",
     "description": "AI-powered SEO status and metadata generator for the TYPO3 Content > Status > Pagetree Overview module",
+    "version": "1.0.0",
     "license": "MIT",
     "type": "typo3-cms-extension",
+    "keywords": [
+        "typo3",
+        "typo3-extension",
+        "seo",
+        "ai",
+        "metadata",
+        "news"
+    ],
+    "authors": [
+        {
+            "name": "Young-dogs",
+            "email": "support@young-dogs.com",
+            "homepage": "https://www.young-dogs.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "typo3/cms-core": "^14.3",
         "typo3/cms-backend": "^14.3",
-        "typo3/cms-info": "^14.3"
+        "typo3/cms-info": "^14.3",
+        "georgringer/news": "^14.1"
     },
     "extra": {
         "typo3/cms": {
