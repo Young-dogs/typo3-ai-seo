@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages" date="2025-11-19T12:00:00Z" product-name="youngdogs_ai_seo">
+        <header/>
+        <body>
+            <trans-unit id="view.label"><source>AI SEO</source></trans-unit>
+            <trans-unit id="button.generate"><source>Generate SEO via API</source></trans-unit>
+            <trans-unit id="button.apply"><source>Apply generated values</source></trans-unit>
+            <trans-unit id="button.cancel"><source>Cancel</source></trans-unit>
+            <trans-unit id="preview.title"><source>Review generated SEO details</source></trans-unit>
+            <trans-unit id="preview.select"><source>Apply</source></trans-unit>
+            <trans-unit id="preview.selectAll"><source>Select all</source></trans-unit>
+            <trans-unit id="preview.oldValue"><source>Existing value</source></trans-unit>
+            <trans-unit id="preview.newValue"><source>Generated value</source></trans-unit>
+            <trans-unit id="toast.successTitle"><source>SEO generated</source></trans-unit>
+            <trans-unit id="toast.warningTitle"><source>SEO text shortened</source></trans-unit>
+            <trans-unit id="toast.errorTitle"><source>SEO generation failed</source></trans-unit>
+            <trans-unit id="success.generated"><source>The SEO fields have been generated and saved.</source></trans-unit>
+            <trans-unit id="warning.truncated"><source>"%s" exceeded %d characters and was shortened.</source></trans-unit>
+            <trans-unit id="error.generic"><source>An unexpected error occurred.</source></trans-unit>
+            <trans-unit id="error.noAccess"><source>The page does not exist, has no such translation or you are not allowed to edit it.</source></trans-unit>
+            <trans-unit id="error.noFields"><source>No editable SEO fields are configured in mod.ai_seo_status.managedFields.</source></trans-unit>
+            <trans-unit id="error.emptyResult"><source>The AI did not return any usable values.</source></trans-unit>
+        </body>
+    </file>
+</xliff>

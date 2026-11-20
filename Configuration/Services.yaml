@@ -1,0 +1,17 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  YoungDogs\AiSeo\:
+    resource: '../Classes/*'
+
+  YoungDogs\AiSeo\Controller\GenerateController:
+    public: true
+
+  YoungDogs\AiSeo\Controller\NewsAjaxController:
+    public: true
+
+  YoungDogs\AiSeo\Controller\NewsOverviewController:
+    public: true

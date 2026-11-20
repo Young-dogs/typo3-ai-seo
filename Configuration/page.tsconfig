@@ -1,0 +1,61 @@
+# Adds the "AI SEO" view to Content > Status > Pagetree Overview.
+# The columns are rendered from mod.ai_seo_status.managedFields below.
+mod.web_info.fieldDefinitions.ai_seo {
+    label = LLL:EXT:youngdogs_ai_seo/Resources/Private/Language/locallang.xlf:view.label
+    fields = title,uid
+}
+
+# Fields managed by the AI for pages. Each key must be a column of the "pages" table.
+#   label        optional, defaults to the TCA label
+#   maxLength    optional, generated text is cut at a word boundary
+#   type         optional: string (single line, default) or text (multi line)
+#   instruction  optional, extra instruction for the AI
+#   disabled     optional, set to 1 to remove a field defined further up the rootline
+mod.ai_seo_status.managedFields {
+    seo_title {
+        maxLength = 60
+        instruction = Concise, compelling page title for search results. No brand suffix.
+    }
+    description {
+        type = text
+        maxLength = 160
+        instruction = Meta description that summarises the page and encourages clicks.
+    }
+    og_title {
+        maxLength = 70
+        instruction = Engaging title for social media sharing.
+    }
+    og_description {
+        type = text
+        maxLength = 200
+        instruction = Short description for social media sharing.
+    }
+    twitter_title {
+        maxLength = 70
+        instruction = Engaging title for social media sharing on Twitter.
+    }
+    twitter_description {
+        type = text
+        maxLength = 200
+        instruction = Short description for social media sharing on Twitter.
+    }
+    keywords {
+        type = text
+        maxLength = 160
+        instruction = Page meta keywords fo SEO.
+    }
+}
+
+# Fields managed by the AI for news records. Each key must be a column of tx_news_domain_model_news.
+mod.ai_seo_news.managedFields {
+    keywords {
+        type = text
+        maxLength = 160
+        instruction = Relevant keywords for the article, comma-separated.
+    }
+    description {
+        type = text
+        maxLength = 160
+        instruction = Short meta description that summarises the article and encourages clicks.
+    }
+}

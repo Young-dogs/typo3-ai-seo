@@ -1,0 +1,14 @@
+# cat=Connection//1; type=string; label=API URL: Full URL of an OpenAI-compatible chat completions endpoint (e.g. https://api.openai.com/v1/chat/completions)
+apiUrl=
+
+# cat=Connection//2; type=string; label=API Key: Secret key sent as Bearer token
+apiKey=
+
+# cat=Connection//3; type=string; label=Model: Model name sent in the request
+model=gpt-4o-mini
+
+# cat=Connection//4; type=int+; label=Timeout (seconds): Maximum time to wait for the API
+timeout=60
+
+# cat=Behaviour//1; type=int+; label=Max content length: Maximum number of characters of page content sent to the API
+maxContentLength=12000
