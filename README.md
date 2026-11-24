@@ -3,7 +3,7 @@
 TYPO3 backend extension that adds AI-assisted SEO generation for:
 
 - **Content → Status → Pagetree Overview** (AI SEO view for pages)
-- **Content → Status → News SEO** (module for `tx_news_domain_model_news`)
+- **Content → Status → News SEO** (optional module for `tx_news_domain_model_news`, available when EXT:news is installed)
 
 Editors can generate SEO metadata, review old vs new values, select fields, and apply changes directly.
 
@@ -15,7 +15,7 @@ Editors can generate SEO metadata, review old vs new values, select fields, and 
 |---|---|
 | PHP | 8.2 – 8.5 |
 | TYPO3 | 14.3 |
-| EXT:news (`georgringer/news`) | 14.1+ |
+| EXT:news (`georgringer/news`) | Optional, 14.1+ for News SEO |
 
 ---
 
@@ -41,7 +41,7 @@ Go to **Admin Tools → Settings → Extension Configuration → `youngdogs_ai_s
 
 | Setting | Description |
 |---|---|
-| **API URL** | Full OpenAI-compatible chat completions endpoint URL |
+| **API URL** | API URL from young-dogs.com |
 | **API Key** | Bearer token used for API authorization |
 | **Model** | Model sent to the API request |
 | **Timeout** | Request timeout in seconds |
@@ -50,7 +50,7 @@ Go to **Admin Tools → Settings → Extension Configuration → `youngdogs_ai_s
 Field-level SEO configuration is done via Page TSconfig:
 
 - `mod.ai_seo_status.managedFields` for **pages**
-- `mod.ai_seo_news.managedFields` for **news records**
+- `mod.ai_seo_news.managedFields` for **news records** (only when EXT:news is installed)
 
 Default examples are included in [`Configuration/page.tsconfig`](Configuration/page.tsconfig).
 

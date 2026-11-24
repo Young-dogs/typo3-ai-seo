@@ -23,8 +23,10 @@
     "require": {
         "typo3/cms-core": "^14.3",
         "typo3/cms-backend": "^14.3",
-        "typo3/cms-info": "^14.3",
-        "georgringer/news": "^14.1"
+        "typo3/cms-info": "^14.3"
+    },
+    "suggest": {
+        "georgringer/news": "14.1+: enables the optional News SEO module"
     },
     "extra": {
         "typo3/cms": {

@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
+use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 use YoungDogs\AiSeo\Controller\NewsOverviewController;
 
-return [
+return ExtensionManagementUtility::isLoaded('news') ? [
     'youngdogs_ai_seo_news' => [
         'parent' => 'content_status',
         'position' => ['after' => 'web_info_translations'],
@@ -23,4 +24,4 @@ return [
             'lang' => 0,
         ],
     ],
-];
+] : [];
