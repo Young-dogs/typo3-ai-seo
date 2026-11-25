@@ -34,7 +34,7 @@
 - `FieldConfiguration` / `NewsFieldConfiguration`: resolve TSconfig-managed fields and permissions
 - `ContentHarvester` / `NewsContentHarvester`: collect plain-text source content
 - `PromptBuilder`: builds system/user prompts and output rules
-- `AiClient`: calls OpenAI-compatible chat-completions endpoint and expects JSON object output
+- `AiClient`: calls Young-dogs AI SEO API endpoint and expects JSON object output
 - `PageRecordService` / `NewsRecordService`: record resolution, permission checks, persistence
 
 ## Data flow

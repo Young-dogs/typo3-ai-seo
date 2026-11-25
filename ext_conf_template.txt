@@ -1,4 +1,4 @@
-# cat=Connection//1; type=string; label=API URL: Full URL of an OpenAI-compatible chat completions endpoint (e.g. https://api.openai.com/v1/chat/completions)
+# cat=Connection//1; type=string; label=API URL: Full API URL from young-dogs.com website
 apiUrl=
 
 # cat=Connection//2; type=string; label=API Key: Secret key sent as x-api-key

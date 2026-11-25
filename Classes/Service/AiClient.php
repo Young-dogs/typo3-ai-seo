@@ -7,7 +7,7 @@ namespace YoungDogs\AiSeo\Service;
 use TYPO3\CMS\Core\Http\RequestFactory;
 
 /**
- * Calls an OpenAI-compatible chat completions endpoint and returns the decoded JSON answer.
+ * Calls YOUNG-dogs AI SEO API endpoint and returns the decoded JSON answer.
  */
 final class AiClient
 {

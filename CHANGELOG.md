@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - News SEO backend module for `tx_news_domain_model_news`
 - Managed-field generation workflow (generate → review → apply)
 - Configurable managed fields via Page TSconfig
-- OpenAI-compatible API integration for metadata generation
+- AI API integration for metadata generation
 
 [Unreleased]: https://github.com/young-dogs/typo3-ai-seo/compare/1.0.0...HEAD
 [1.0.0]: https://github.com/young-dogs/typo3-ai-seo/releases/tag/1.0.0

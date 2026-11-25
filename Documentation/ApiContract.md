@@ -1,6 +1,6 @@
 # API Contract
 
-The extension calls an OpenAI-compatible **chat completions** endpoint over HTTP POST.
+The extension calls an Young-dogs AI SEO API endpoint over HTTP POST.
 
 ## Request
 
