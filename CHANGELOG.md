@@ -9,6 +9,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [1.0.1] - 2026-11-25
+
 ### Added
 - Public README for GitHub
 - Technical documentation in `Documentation/TechnicalOverview.md`
@@ -18,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - `composer.json` enriched with package metadata (`version`, `keywords`, `authors`)
 - EXT:news is optional; the News SEO module and AJAX routes are registered only when it is installed
+- changed Bearer token to x-api-key
 
 ---
 

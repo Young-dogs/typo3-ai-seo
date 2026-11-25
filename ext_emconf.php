@@ -3,7 +3,7 @@
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Young Dogs AI SEO',
     'description' => 'Adds an AI SEO view with one-click metadata generation to the Content > Status > Pagetree Overview module.',
-    'version' => '1.0.0',
+    'version' => '1.0.1',
     'category' => 'backend',
     'state' => 'stable',
     'author' => 'Young Dogs',
