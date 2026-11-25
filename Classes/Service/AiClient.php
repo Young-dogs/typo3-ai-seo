@@ -34,7 +34,7 @@ final class AiClient
                     'headers' => [
                         'Content-Type' => 'application/json',
                         'Accept' => 'application/json',
-                        'Authorization' => 'Bearer ' . $this->settings->getApiKey(),
+                        'X-API-Key' => $this->settings->getApiKey(),
                     ],
                     'body' => json_encode([
                         'model' => $this->settings->getModel(),

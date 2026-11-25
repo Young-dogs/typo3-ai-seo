@@ -50,7 +50,7 @@ Sent with every request:
 ```
 Content-Type: application/json
 Accept: application/json
-Authorization: Bearer <api key>
+X-API-Key: <your api key>
 ```
 
 ## Error handling

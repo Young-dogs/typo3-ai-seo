@@ -42,7 +42,7 @@ Go to **Admin Tools → Settings → Extension Configuration → `youngdogs_ai_s
 | Setting | Description |
 |---|---|
 | **API URL** | API URL from young-dogs.com |
-| **API Key** | Bearer token used for API authorization |
+| **API Key** | Secret key sent as `X-API-Key` header |
 | **Model** | Model sent to the API request |
 | **Timeout** | Request timeout in seconds |
 | **Max content length** | Maximum harvested content characters sent to AI |
